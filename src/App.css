@@ -26,6 +26,9 @@ a{
   text-decoration:none;
   margin-left:-150px;
 }
+.header_menu a{
+  color: black;
+}
 .header_menu a:hover{
   border-bottom:1px solid #8c30f5
 }
