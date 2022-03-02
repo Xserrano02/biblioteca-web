@@ -1,8 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
-import styled,{css} from 'styled-components';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import styled from 'styled-components';
+
 
 const Menu = () => {
     return ( 
@@ -44,12 +43,13 @@ const Menu = () => {
 const Header = styled.div`
 font-weight: bolder;
 color: black;
-width:100%;
+width:97%;
 padding:20px;
 color:#ffffff;
 display:flex;
 flex-wrap:wrap;
 justify-content:space-evenly;
+max-width: 1800px;
 
   a{
     padding: 20px 20px;
@@ -71,6 +71,8 @@ justify-content:space-evenly;
   }
 
   @media screen and (max-width: 414px){
+    max-width: 414px;
+    width:100%;
     input{
       margin-top:15px;
       margin-left:-20px;
@@ -83,6 +85,7 @@ justify-content:space-evenly;
 
   @media screen and (max-width: 375px){
     margin-left:-05px;
+    width:100%;
   }
   
 `
@@ -107,6 +110,9 @@ const HeaderMenu = styled.div`
 
   @media screen and (max-width: 414px){
     margin-left:-30px;
+    br{
+      display:block;
+    }
   }
 `
 
@@ -121,6 +127,7 @@ const HeaderMenuBtn = styled.div`
   }
   @media screen and (max-width: 414px){
     margin-left:-45px;
+    max-width: 414px;
   }
   
 
