@@ -5,6 +5,7 @@ import Inicio from './componentes/Inicio'
 import {Route, Routes} from 'react-router-dom'
 import Menu from './componentes/Menu';
 
+
 function App() {
   return (
     <div className="App">
@@ -29,5 +30,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

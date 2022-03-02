@@ -1,68 +1,13 @@
 .App {
   text-align: center;
 }
-
-/*------------------------------------------------*/
-
-.header{
-  font-weight: bolder;
-  color: black;
-  width:100%;
-  padding:20px;
-  color:#ffffff;
-  display:flex;
-  justify-content:space-evenly;
-}
-a{
-  padding: 20px 20px;
-  text-decoration:none;
-}
-
-
-/*------------------------------------------------*/
-.header_menu{
-  color:#18191f;
-  padding: 15px 20px;
-  text-decoration:none;
-  margin-left:-150px;
-}
-.header_menu a{
-  color: black;
-}
-.header_menu a:hover{
-  border-bottom:1px solid #8c30f5
-}
-.header_menu-btn{
-  padding:20px; 
-}
-.header_menu-btn a{
-  margin-left:10px
-}
-input{
-  border:none;
-  padding:5px;
-  border-bottom:2px solid #18191f;
-  color: black;
-  margin-left:20px;
-  background-image: url();
-}
-input:focus{
-  outline: none;
-  border-bottom:2px solid #8c30f5;
-}
-
-/*------------------------------------------------*/
-
 .btnPremium{
   background-color: #f1e4ff;
   color: #8c30f5;
   border-radius: 10px;
 }
-
 .btnCerrar{
   background-color: #8c30f5;
   color: #f1e4ff;
   border-radius: 10px;
 }
-
-
