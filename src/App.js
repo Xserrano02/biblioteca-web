@@ -5,6 +5,8 @@ import Inicio from './componentes/Inicio'
 import {Route, Routes} from 'react-router-dom'
 import Menu from './componentes/Menu';
 import Footer from './componentes/Footer';
+import Registrar from './componentes/Registrar';
+import Login from './componentes/Login';
 
 
 function App() {
@@ -26,7 +28,13 @@ function App() {
             el nombre de su componente pero primero */}
             <Route path="/premium" element={<Inicio/>}></Route>
             <Route path="/originales" element={<Inicio/>}></Route>
+<<<<<<< HEAD
             <Route path="/premium" element={<inicio/>}></Route>
+=======
+            <Route path="/registrar" element={<Registrar/>}></Route>
+            <Route path="/login" element={<Login/>}></Route>
+
+>>>>>>> 34cfabc70c0b25b2d377b85877d29fbdf13c71a7
           </Routes>
       </main>
 
