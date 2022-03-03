@@ -28,7 +28,6 @@ const Menu = () => {
       </HeaderMenu>
 
       <HeaderMenuBtn className='header_menu-btn'>
-
         {/* Esta parte es la de los botones de primium y cerrar sesion */}
         <NavLink className="btnPremium" to="/probar-premium">Probar Premium</NavLink>
         <NavLink close to="/cerrar-sesion" className="btnCerrar" >Cerrar sesion</NavLink>
@@ -50,7 +49,10 @@ display:flex;
 flex-wrap:wrap;
 justify-content:space-evenly;
 max-width: 1800px;
-
+position:fixed;
+top:0;
+left:0
+width:100%;
   a{
     padding: 20px 20px;
     text-decoration:none;
@@ -71,11 +73,11 @@ max-width: 1800px;
   }
 
   @media screen and (max-width: 414px){
+    position:static;
     max-width: 414px;
     width:100%;
     input{
-      margin-top:15px;
-      margin-left:-20px;
+      margin:15px 25%;
     }
 
     svg{
@@ -86,6 +88,7 @@ max-width: 1800px;
   @media screen and (max-width: 375px){
     margin-left:-05px;
     width:100%;
+    position:static;
   }
   
 `

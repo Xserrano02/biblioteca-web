@@ -1,5 +1,7 @@
-.App {
+.App{
   text-align: center;
+ 
+
 }
 .btnPremium{
   background-color: #f1e4ff;
@@ -10,4 +12,6 @@
   background-color: #8c30f5;
   color: #f1e4ff;
   border-radius: 10px;
+  
 }
+
