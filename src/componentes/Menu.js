@@ -29,14 +29,12 @@ const Menu = () => {
 
       <HeaderMenuBtn className='header_menu-btn'>
         {/* Esta parte es la de los botones de primium y cerrar sesion */}
-<<<<<<< HEAD
+
         <NavLink className="btnPremium" to="/premium">Probar Premium</NavLink>
-=======
-        <NavLink className="btnPremium" to="/probar-premium">Probar Premium</NavLink>
 
         <NavLink close to="/premium" className="btnCerrar" >Login</NavLink>
 
->>>>>>> b6ed4b727f6e7c129aa93ee5fba28281f3efe31e
+
         <NavLink close to="/registrar" className="btnCerrar" >Registrar</NavLink>
 
       </HeaderMenuBtn>
