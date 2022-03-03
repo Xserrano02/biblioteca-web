@@ -30,6 +30,9 @@ function App() {
             el nombre de su componente pero primero */}
             <Route path="/premium" element={<Premium/>}></Route>
             <Route path="/originales" element={<Inicio/>}></Route>
+
+            <Route path="/premium" element={<inicio/>}></Route>
+
             <Route path="/registrar" element={<Registrar/>}></Route>
             <Route path="/login" element={<Login/>}></Route>
             <Route path="/sobre-nosotros" element={<SobreNosotros/>}></Route>
