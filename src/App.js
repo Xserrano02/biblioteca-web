@@ -4,6 +4,7 @@ import Error404 from './componentes/Error404';
 import Inicio from './componentes/Inicio'
 import {Route, Routes} from 'react-router-dom'
 import Menu from './componentes/Menu';
+import Footer from './componentes/Footer';
 
 
 function App() {
@@ -25,8 +26,11 @@ function App() {
             el nombre de su componente pero primero */}
             <Route path="/premium" element={<Inicio/>}></Route>
             <Route path="/originales" element={<Inicio/>}></Route>
+            <Route path="/Centro-de-ayuda" element={<Error404/>}></Route>
           </Routes>
       </main>
+
+      <Footer/>
     </div>
   );
 }

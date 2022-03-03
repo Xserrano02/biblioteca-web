@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import fondo from '../../src/assets/completoFondo.png'
 import librosPortada from '../../src/assets/LibroImagen.jpg';
