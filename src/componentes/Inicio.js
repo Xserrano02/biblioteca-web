@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import fondo from '../../src/assets/completoFondo.png'
 import librosPortada from '../../src/assets/LibroImagen.jpg';
@@ -18,8 +19,14 @@ const Menu = () => {
 
     return ( 
         <Contenedor>
-            <img src={fondo}></img>
+
+            
+            <div className="contenedorFondo">
+                <img src={fondo}></img>
+            </div>
+            
             <h2>Premium</h2>
+
             <ContenedorPremium>
                 
                 {imagenes.map((imagen)=>{
@@ -59,7 +66,7 @@ const Contenedor = styled.div`
     @media screen and (max-width: 414px){
         img{
             width:100%;
-            height: 400px;
+            height: 300px;
         }
       }
 `
@@ -96,7 +103,7 @@ width:20%;
 
 img{
     width:100%;
-    height: 400px;
+    height: 300px;
 }
 
 button{

@@ -42,7 +42,7 @@ const Menu = () => {
 const Header = styled.div`
 font-weight: bolder;
 color: black;
-width:97%;
+width:100%;
 padding:20px;
 color:#ffffff;
 display:flex;
@@ -74,14 +74,14 @@ width:100%;
 
   @media screen and (max-width: 414px){
     position:static;
-    max-width: 414px;
     width:100%;
+    padding:20px 0px;
     input{
       margin:15px 25%;
     }
 
     svg{
-      margin-left:-20px;
+      margin-left:30px;
     }
   }
 
@@ -112,7 +112,7 @@ const HeaderMenu = styled.div`
   }
 
   @media screen and (max-width: 414px){
-    margin-left:-30px;
+    margin-left:-2px;
     br{
       display:block;
     }
@@ -129,7 +129,8 @@ const HeaderMenuBtn = styled.div`
     padding:15px 20px;
   }
   @media screen and (max-width: 414px){
-    margin-left:-45px;
+    margin-left:-10px;
+    width:100%;
     max-width: 414px;
   }
   
