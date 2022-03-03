@@ -26,7 +26,7 @@ function App() {
             el nombre de su componente pero primero */}
             <Route path="/premium" element={<Inicio/>}></Route>
             <Route path="/originales" element={<Inicio/>}></Route>
-            <Route path="/Centro-de-ayuda" element={<Error404/>}></Route>
+            <Route path="/premium" element={<inicio/>}></Route>
           </Routes>
       </main>
 
