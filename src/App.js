@@ -7,6 +7,8 @@ import Menu from './componentes/Menu';
 import Footer from './componentes/Footer';
 import Registrar from './componentes/Registrar';
 import Login from './componentes/Login';
+import Premium from './componentes/Premium';
+import SobreNosotros from './componentes/SobreNosotros';
 
 
 function App() {
@@ -26,16 +28,18 @@ function App() {
 
             {/*para agregar mas links tienen que remplazar la etiqueta inicio y agregar
             el nombre de su componente pero primero */}
-            <Route path="/premium" element={<Inicio/>}></Route>
+            <Route path="/premium" element={<Premium/>}></Route>
             <Route path="/originales" element={<Inicio/>}></Route>
             <Route path="/registrar" element={<Registrar/>}></Route>
             <Route path="/login" element={<Login/>}></Route>
+            <Route path="/sobre-nosotros" element={<SobreNosotros/>}></Route>
 
           </Routes>
+          <Footer/>
       </main>
 
       {/* Footer todavia no termiando */}
-      {/* <Footer/> */}
+      
     </div>
   );
 }

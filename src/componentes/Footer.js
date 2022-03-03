@@ -29,7 +29,7 @@ const Footer = () => {
 
           <ContenedorSoporte>
               <h4>informacion</h4>
-              <Link to="/Centro-de-ayuda">Sobre Nosotros</Link>
+              <Link to="/sobre-nosotros">Sobre Nosotros</Link>
               <Link to="/Centro-de-ayuda">Metas</Link>
               <Link to="/Centro-de-ayuda">Mision</Link>
               <Link to="/Centro-de-ayuda">vision</Link>
