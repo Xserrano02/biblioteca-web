@@ -17,25 +17,25 @@
     align-items: center;
     padding: 5%;
     border-radius: 10%;
-    width: 30%;
+    width: 20%;
 }
 
 .input{
     display: flex;
     justify-content: center;
-    padding: 10px 5px 10px 10px;
-    display: block;
+    padding: 10px 5px 10px 5px;
     border-radius: 4px;
     transition: 0.2s ease-out;
     color: darken(#EDEDED, 30%);
     align-items: center;
+    width: 100%;
 }
 
 .legend{
     background: #8C30F5;
     color:white;
     padding: 10px;
-    margin: 10%;
+    margin: 10% auto;
     border-radius: 10px;
 }
 
@@ -58,4 +58,14 @@
     border-radius: 10px;
     width: 30%;
     text-decoration: none;
+}
+
+@media (max-width:414px) {
+    .login{
+        width: 80%;
+
+    }
+    .legend{
+        text-align: center;
+    }
 }
