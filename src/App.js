@@ -38,7 +38,7 @@ function App() {
             <Route path="/sobre-nosotros" element={<SobreNosotros/>}></Route>
 
           </Routes>
-          <Footer/>
+          {/* <Footer/> */}
       </main>
 
       {/* Footer todavia no termiando */}

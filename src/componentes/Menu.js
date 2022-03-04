@@ -135,7 +135,7 @@ const HeaderMenuBtn = styled.div`
     padding:15px 20px;
   }
   @media screen and (max-width: 414px){
-    margin-left:-10px;
+    margin-left:-18px;
     width:100%;
     max-width: 414px;
   }
