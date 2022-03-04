@@ -32,7 +32,7 @@ const Menu = () => {
 
         <NavLink className="btnPremium" to="/premium">Probar Premium</NavLink>
 
-        <NavLink close to="/premium" className="btnCerrar" >Login</NavLink>
+        <NavLink close to="/login" className="btnCerrar" >Login</NavLink>
 
 
         <NavLink close to="/registrar" className="btnCerrar" >Registrar</NavLink>
