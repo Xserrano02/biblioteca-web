@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import fondo from '../../src/assets/completoFondo.png'
 import librosPortada from '../../src/assets/LibroImagen.jpg';
+import SeccionOriginales from "./SeccionOriginales";
+import originales from '../assets/originales.jpg'
 
 
 const Menu = () => {
@@ -12,6 +14,17 @@ const Menu = () => {
         {img:librosPortada,Autor:'Ana Frank', Titulo:'El diario de Ana Frank'},
         {img:librosPortada,Autor:'Ana Frank', Titulo:'El diario de Ana Frank'}
 
+      ]
+
+      const originalesSeccion =[
+        {img:originales},
+        {img:originales},
+        {img:originales},
+        {img:originales},
+        {img:originales},
+        {img:originales},
+        {img:originales},
+        {img:originales}
       ]
 
 
@@ -39,6 +52,9 @@ const Menu = () => {
                     );
                 })}
             </ContenedorPremium>
+
+
+            <SeccionOriginales originalesSeccion={originalesSeccion} imagenes={imagenes}/>
         </Contenedor>
 
      );
@@ -48,19 +64,7 @@ const Contenedor = styled.div`
     max-width: 2000px;
     img{
         width:100%;
-        height: 750px;
-    }
-
-    a{
-        position:absolute;
-        left:200px;
-        top:474px;
-        padding:15px 30px;
-        text-decoration:none;
-        background-color: #f1e4ff;
-        z-index:1;
-        border-radius:10px;
-        color:#fff;
+        height: 500px;
     }
     @media screen and (max-width: 414px){
         img{

@@ -48,7 +48,7 @@ position: absolute;
 width: 100%;
 height: 332px;
 left: 0px;
-top: 2000px;
+top: 3000px;
 
 p{
     color:#fff;

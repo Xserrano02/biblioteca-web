@@ -3,6 +3,7 @@
 .App{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
 
 }
 .btnPremium{
@@ -28,6 +29,7 @@
 
 .contenedorFondo img{
     display: none;
+    
 }
 
 @media (max-width:414px) {
