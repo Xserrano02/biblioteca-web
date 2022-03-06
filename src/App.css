@@ -6,6 +6,31 @@
   font-weight: bolder;
 
 }
+
+.header{
+  font-weight: bolder;
+  color: black;
+  width:100%;
+  padding:20px;
+  color:#ffffff;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  max-width: 1800px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: transparent;
+}
+
+.header.active{
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
 .btnPremium{
   background-color: #f1e4ff;
   color: #8c30f5;
