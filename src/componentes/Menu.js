@@ -8,7 +8,7 @@ const Menu = () => {
   const [navBar, setNavBar] = useState(false);
 
   const cambiarFondo= ()=>{
-    if(window.scrollY >= 80){
+    if(window.scrollY >= 750){
       setNavBar(true);
     }
     else{
@@ -70,7 +70,6 @@ const Header = styled.div`
     border:none;
     padding:5px;
     border-bottom:2px solid #18191f;
-    color: black;
     margin-left:20px;
     background-image: url();
   }
@@ -130,7 +129,6 @@ const HeaderMenu = styled.div`
 
 const HeaderMenuBtn = styled.div`
   padding:20px; 
-  color: #8c30f5;
   border-radius: 10px;
 
   a{

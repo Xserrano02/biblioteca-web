@@ -26,13 +26,13 @@ const SeccionOriginales = ({originalesSeccion,imagenes}) => {
                     <NavLink to='/horror' className='btn-horrro'>Horror</NavLink>
                 </ContenedorLinks>
 
-                <ContenedorLinks>
+                <ContenedorLinksSec>
                 <h3>Categorias originales mas buscadas</h3>
 
                     <NavLink to='/ciencia-ficcion' className='btn-ciencia'>Clasica</NavLink>
                     <NavLink to='/romance'className='btn-romance'>Fantasia</NavLink>
                     <NavLink to='/horror' className='btn-horrro'>Drama</NavLink>
-                </ContenedorLinks>
+                </ContenedorLinksSec>
 
 
             </ContenedorCategorias>
@@ -97,6 +97,30 @@ line-height: 196.19%;
 color: #241400;
 }
 
+
+`
+
+const ContenedorLinksSec=styled.div`
+text-aling:center;
+display:grid;
+grid-template-rows:  repeat(2, 1fr);
+row-gap: 40px;
+
+
+a{
+background: #A5A6F6;
+box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding:20px;
+width:50%;
+margin: 0 auto; 
+text-decoration:none;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 196.19%;
+color: #241400;
+}
 
 `
 export default SeccionOriginales;
