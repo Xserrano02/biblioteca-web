@@ -42,11 +42,12 @@ const Contenedor = styled.div`
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 96px 165px;
+padding: 96px 35px;
 width: 100%;
 height: auto;
 margin-top:100px;
 justify-content:center;
+max-width: 1833px;
 
 p{
     color:#fff;
