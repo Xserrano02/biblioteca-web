@@ -8,7 +8,12 @@ const SeccionOriginales = ({originalesSeccion,imagenes}) => {
             <h3>Originales</h3>
             <ContenedorOriginales>
                 {originalesSeccion.map((imagen) =>{
-                    return( <img src={imagen.img}/>
+                    return(
+                        <div>
+                            <NavLink to='/libros'><img src={imagen.img}/></NavLink>
+                        </div>
+                        
+                        
 
                     );
                     

@@ -9,6 +9,7 @@ import Registrar from './componentes/Registrar';
 import Login from './componentes/Login';
 import Premium from './componentes/Premium';
 import SobreNosotros from './componentes/SobreNosotros';
+import VerLibros from './componentes/VerLibro';
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
             <Route path='/ciencia-ficcion' element={<inicio/>}></Route>
             <Route path='/romance' element={<inicio/>}></Route>
             <Route path='/horror' element={<inicio/>}></Route>
+
+            <Route path='/libros' element={<VerLibros/>}></Route>
           </Routes>
           <Footer/>
       </main>
