@@ -43,10 +43,13 @@ function App() {
 
             <Route path='/libros' element={<VerLibros/>}></Route>
           </Routes>
-          <Footer/>
+          
       </main>
+    
 
+      <Footer/>
       {/* Footer todavia no termiando */}
+      
       
     </div>
   );
